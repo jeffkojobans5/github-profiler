@@ -1,10 +1,7 @@
 import React from 'react'
 
-// icons
+// icon
 import Loader from "react-loader-spinner";
-// context API
-import { ContextData }  from '../context/contextData'
-
 
 const Loading = () => {
     

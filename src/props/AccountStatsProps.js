@@ -6,7 +6,6 @@ import { Paper , Grid , Typography } from '@material-ui/core'
 import useStyles from '../Styles/Styles'
 //icons
 import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 
 
 const AccountStatsProps = (props) => {

@@ -6,8 +6,7 @@ function ContextProvider ({children}) {
     const [ loading , isLoading ] = React.useState(true)
     const [ user , setUser ] = React.useState([])
     const [ repo , setRepo ] = React.useState([])
-    const [ inputValue , setInputValue ] = React.useState('forks')
-    const [ person , setPerson ] = React.useState('bradtraversy')
+    const [ person , setPerson ] = React.useState('jeffkojobans5')
     const [ sortBy , setSortBy ] = React.useState('forks')
     const [ searchInput , setSearchInput ] = React.useState('')  //input search
     const [ holder , setHolder ] = React.useState('')  //holds earliar input search incase of wrong search
@@ -86,7 +85,7 @@ function ContextProvider ({children}) {
 
     return (
         <ContextData.Provider
-            value = {{ loading , user , repo , handleChange , inputValue , handleSearch , handleInput , foundNoUser , stats , sortBy , searchInput }}
+            value = {{ loading , user , repo , handleChange  , handleSearch , handleInput , foundNoUser , stats , sortBy , searchInput }}
         > 
         {children}
         </ContextData.Provider>

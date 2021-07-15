@@ -17,7 +17,7 @@ const Profile = () => {
         <Paper className = {classes.Profile} style={{padding: '1rem' , minHeight:"300px"}}>
             <Grid container wrap="nowrap" spacing={2}>
                 <Grid item>
-                    <img src={avatar_url} style={{width:"100px", height:"100px" , borderRadius: '100%'}} alt='Profile Picture'/>
+                    <img src={avatar_url} style={{width:"100px", height:"100px" , borderRadius: '100%'}} alt='Profile'/>
                 </Grid>
                 <Grid item xs>
                     <Typography variant="h6">  {name} </Typography>
@@ -31,7 +31,7 @@ const Profile = () => {
                             className={classes.follow}
                             spacing = {3}
                             endIcon={  <i class="fas fa-user-plus"></i>  }
-                        > <a href={html_url} target="_blank" style={{color: 'white' , textDecoration: "none"}}>FOLLOW</a></Button>
+                        > <a href={html_url} rel="noreferrer" target="_blank" style={{color: 'white' , textDecoration: "none"}}>FOLLOW</a></Button>
                 </Grid>
             </Grid>
         

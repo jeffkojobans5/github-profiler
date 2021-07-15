@@ -9,8 +9,6 @@ import CodeIcon from '@material-ui/icons/Code';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import StarIcon from '@material-ui/icons/Star';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
-// context
-import { ContextData } from '../context/contextData'
 
 const RepoProps = (props) => {
     const classes = useStyles()

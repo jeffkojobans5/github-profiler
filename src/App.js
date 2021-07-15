@@ -9,7 +9,7 @@ import { ContextData }  from './context/contextData'
 // material UI components
 import { CssBaseline,  Container,  Paper , Grid } from '@material-ui/core'
 //components
-import { AccountStats  , FilterRepos , Profile , Repos , ReposChart , Search , FoundUser , Loading } from './components/index'
+import { AccountStats  , FilterRepos , Profile , Repos , ReposChart , Search , FoundUser , Loading , Filter } from './components/index'
     
 
 
@@ -28,13 +28,14 @@ const App = () => {
             <CssBaseline />
                 <Container maxWidth="lg">
                     <Search />
+                    <FoundUser />
                     <AccountStats />
                         <Grid container spacing={2} >
                             <Profile />
                             <ReposChart />
                         </Grid>                
                 <Paper container className = {classes.repos} > 
-                        <FoundUser />
+                        <Filter />
                         <FilterRepos />                          
                         <Repos />
                 </Paper>
