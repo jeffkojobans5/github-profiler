@@ -2,7 +2,7 @@
 
 This project allows you to view some information about a valid github user.
 
-Technologies Used: React.js | Material UI | Github Users API 
+Technologies Used: React.js | Material UI | Github Users API | FusionCharts
 
 Visit it here : https://github-profilr.netlify.app/
 
